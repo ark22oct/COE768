@@ -32,3 +32,17 @@ Socket APIs are fundamental in socket programming for establishing communication
 
 ### Table of various PDU types and their corresponding functions
 <img width="1000" alt="Screen Shot 2024-05-02 at 1 21 50 PM" src="https://github.com/ark22oct/Computer-Networks/assets/77360623/609063ab-c0c4-4801-9cd2-37459a5aa694">
+
+# Key Objectives
+1. Uses analytical models to predict and control and networking components and processes
+   behaviors.
+2. Uses engineering knowledge to solve real world open-ended engineering problems. Uses
+   the specialized core engineering knowledge in the field of computer networks to understand
+   and design a various types of communication links and networks.
+3. Uses the specialized core engineering knowledge in the field of computer networks to
+   understand and design a various types of communication links and networks.
+4. Generate solutions for complex engineering design problems.
+5. Demonstrates iterative design process in complex engineering projects.
+6. Writes and revises documents using appropriate discipline specific conventions.
+7. Demonstrates confidence in oral communications and explains and interprets results
+   clearly.
