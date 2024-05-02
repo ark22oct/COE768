@@ -9,18 +9,18 @@ Socket APIs are fundamental in socket programming for establishing communication
 
 ### Design Specifications
 
-**Programming Requirements:** Defines the roles of different peers (Peer 1, Peer 2, Peer 3) and outlines the structure of Protocol Data Units (PDUs) used for communication.
-**Implementation of Protocol:** Describes the PDUs used in the application and their functions.
+1. **Programming Requirements:** Defines the roles of different peers (Peer 1, Peer 2, Peer 3) and outlines the structure of Protocol Data Units (PDUs) used for communication.
+2. **Implementation of Protocol:** Describes the PDUs used in the application and their functions.
 
  ### Program Breakdown
 
-**Client Program:** Handles communication between a peer and the index server using UDP. Allows users to input commands based on the PDU format.
-**Server Program:** Implements TCP and UDP protocols to manage index and content servers. Handles content registration, search, download, listing, and de-registration.
-**Content Registration:** Peers register content with the index server, which then manages content availability.
-**Content Search:** Peers search for content in the index server, which provides information about content servers.
-**Content Download:** Peers download requested content from content servers using TCP.
-**Content Listing:** Peers can request a list of registered content from the index server.
-**Content De-Registration:** Peers can deregister content from the server when needed.
+1. **Client Program:** Handles communication between a peer and the index server using UDP. Allows users to input commands based on the PDU format.
+2. **Server Program:** Implements TCP and UDP protocols to manage index and content servers. Handles content registration, search, download, listing, and de-registration.
+3. **Content Registration:** Peers register content with the index server, which then manages content availability.
+4. **Content Search:** Peers search for content in the index server, which provides information about content servers.
+5. **Content Download:** Peers download requested content from content servers using TCP.
+6. **Content Listing:** Peers can request a list of registered content from the index server.
+7. **Content De-Registration:** Peers can deregister content from the server when needed.
 
 
 
