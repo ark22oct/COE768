@@ -1,11 +1,26 @@
 # Computer Networks
 Lab work for Computer Networks accomplished using C. Feel free to reference, but avoid copying.
 
-Concentrates on the Internet technology. It first introduces the OSI and TCP/IP network architecture models. It then studies the implementation principles and design issues at each layer of these models. Topics include: OSI and TCP/IP models, data transmission basics, data-link protocols, local area networks, wide-area networks, Internet structures, TCP/IP protocol suite, and application Layer protocols. Laboratory work focuses on the implementation of stop-and-wait protocol based on the BSD socket. In addition, we will gain practical experience by building and studying a physical network using network devices such as switches and routers.
+Concentrates on the Internet technology. First introduces the OSI and TCP/IP network architecture models. Then studies the implementation principles and design issues at each layer of these models. Topics include: OSI and TCP/IP models, data transmission basics, data-link protocols, local area networks, wide-area networks, Internet structures, TCP/IP protocol suite, and application Layer protocols. Laboratory work focuses on the implementation of stop-and-wait protocol based on the BSD socket. In addition, we will gain practical experience by building and studying a physical network using network devices such as switches and routers.
 
 # Project (Peer to Peer Network and Index Server) Overview
 
-Revolves around the development of a Peer-to-Peer (P2P) application with an index server and multiple peers exchanging content. The communication between the index server and peers utilizes UDP, while content download occurs over TCP. 
+Socket APIs are fundamental in socket programming for establishing communication links between processes on a network. This project utilizes socket programming, TCP, and UDP protocols to facilitate communication among peers in a P2P network. The objective of this project is to develop a P2P application comprising an index server and multiple peers. The index server facilitates content exchange among peers, while content download occurs through a content server. The communication between the index server and peers is based on UDP, while content download is facilitated via TCP.
+
+### Design Specifications
+
+**Programming Requirements:** Defines the roles of different peers (Peer 1, Peer 2, Peer 3) and outlines the structure of Protocol Data Units (PDUs) used for communication.
+**Implementation of Protocol:** Describes the PDUs used in the application and their functions.
+
+ ### Program Breakdown
+
+**Client Program:** Handles communication between a peer and the index server using UDP. Allows users to input commands based on the PDU format.
+**Server Program:** Implements TCP and UDP protocols to manage index and content servers. Handles content registration, search, download, listing, and de-registration.
+**Content Registration:** Peers register content with the index server, which then manages content availability.
+**Content Search:** Peers search for content in the index server, which provides information about content servers.
+**Content Download:** Peers download requested content from content servers using TCP.
+**Content Listing:** Peers can request a list of registered content from the index server.
+**Content De-Registration:** Peers can deregister content from the server when needed.
 
 
 
