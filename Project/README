@@ -1,2 +1,20 @@
-COE768 Final Project, Peer to Peer Network + Index Server
-Index Server to host content that Peers can register and once registered, the Peers set themselves up as UDP servers that other peers can download the content from.
+Project (Peer to Peer Network and Index Server) Overview
+Socket APIs are fundamental in socket programming for establishing communication links between processes on a network. This project utilizes socket programming, TCP, and UDP protocols to facilitate communication among peers in a P2P network. The objective of this project is to develop a P2P application comprising an index server and multiple peers. The index server facilitates content exchange among peers, while content download occurs through a content server. The communication between the index server and peers is based on UDP, while content download is facilitated via TCP.
+
+Design Specifications
+Programming Requirements: Defines the roles of different peers (Peer 1, Peer 2, Peer 3) and outlines the structure of Protocol Data Units (PDUs) used for communication.
+Implementation of Protocol: Describes the PDUs used in the application and their functions.
+Program Breakdown
+Client Program: Handles communication between a peer and the index server using UDP. Allows users to input commands based on the PDU format.
+Server Program: Implements TCP and UDP protocols to manage index and content servers. Handles content registration, search, download, listing, and de-registration.
+Content Registration: Peers register content with the index server, which then manages content availability.
+Content Search: Peers search for content in the index server, which provides information about content servers.
+Content Download: Peers download requested content from content servers using TCP.
+Content Listing: Peers can request a list of registered content from the index server.
+Content De-Registration: Peers can deregister content from the server when needed.
+State diagram for the server and client model of a Socket
+Screen Shot 2024-05-02 at 1 19 37 PM
+Peer to Peer mechanism
+Screen Shot 2024-05-02 at 1 20 37 PM
+Table of various PDU types and their corresponding functions
+Screen Shot 2024-05-02 at 1 21 50 PM
