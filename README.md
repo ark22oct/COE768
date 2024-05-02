@@ -10,7 +10,7 @@ Revolves around the development of a Peer-to-Peer (P2P) application with an inde
 
 
 ### State diagram for the server and client model of a Socket
-<img width="1000" alt="Screen Shot 2024-05-02 at 1 19 37 PM" src="https://github.com/ark22oct/Computer-Networks/assets/77360623/50c177d8-c554-4f66-a37e-500006c73e37">
+<img width="500" alt="Screen Shot 2024-05-02 at 1 19 37 PM" src="https://github.com/ark22oct/Computer-Networks/assets/77360623/50c177d8-c554-4f66-a37e-500006c73e37">
 
 ### Peer to Peer mechanism
 <img width="1000" alt="Screen Shot 2024-05-02 at 1 20 37 PM" src="https://github.com/ark22oct/Computer-Networks/assets/77360623/a365ce08-5cf2-4bad-a418-548d3250a19b">
